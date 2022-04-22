@@ -1,3 +1,3 @@
-const { attack } = require("./attack.js");
+const { attack } = require('./attack');
 
-console.log(attack("Ogre", 3));
+console.log(attack('Ogre', 3));
