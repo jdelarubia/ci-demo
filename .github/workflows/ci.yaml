@@ -6,8 +6,8 @@ on:
   pull_request:
     branches: [main]
 jobs:
-  eslint:
-    name: Lint code
+  pre-build-checks:
+    name: Lint and Test
     runs-on: ubuntu-latest
 
     steps:
